@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Luogu AutoFill",
+    "version": "1.0.0",
+    "permissions": ["storage" , "activeTab" , "scripting"],
+    "host_permissions": ["https://www.luogu.com.cn/*"],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
